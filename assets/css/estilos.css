@@ -1,0 +1,86 @@
+.main-section {
+    background-image: url('../img/img-main.jpeg');
+    background-size: cover; 
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.card {
+    height: 100%;
+    display: flex;
+  
+    flex-direction: column;
+   margin: auto;
+   padding: auto;
+}
+
+.card img{
+    height: 250px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+
+    flex-grow: 1,
+    
+}
+
+.card-content {
+    flex-grow: 1,
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+  justify-content: flex-end;
+
+  margin-top: auto;
+  align-items: center;
+   
+}
+
+
+
+#banner-venta {
+    background-image: url('../img/679.jpg');
+    background-size: cover; 
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+#banner-alquiler {
+    background-image: url('../img/mudanza.png');
+    background-size: cover; 
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    
+}
+
+#colorfondo {
+    background-color: rgba(128,128,128,0.5);
+    padding:  1rem;
+    border-radius: 3%;
+}
+
+#iniciobutton {
+    display: flex;
+    width: 100wh;     
+    justify-content: center;  
+}
+
